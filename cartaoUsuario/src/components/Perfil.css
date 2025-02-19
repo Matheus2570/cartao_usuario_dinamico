@@ -1,0 +1,37 @@
+.blocoPerfil {
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    color: #ffffff; 
+    border: 2px solid #000000; 
+    background-color: #00000000; 
+    width: 37%;
+    height: auto;
+    text-align: justify;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease;
+  }
+  
+  .blocoPerfil:hover {
+    transform: scale(1.07); 
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    background-color: rgb(0, 122, 0);
+  }
+  
+  .img {
+    width: 15vw;
+    height: 30h;
+    border-radius: 5%;
+    margin-bottom: 20px;
+    border: 2px solid black;
+  }
+
+.conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
