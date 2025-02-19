@@ -6,12 +6,26 @@ function App() {
 
   return (
     <>
- <CartaoUsuario
+<h1>Usuários:</h1>
+
+<main className="main2">
+        <CartaoUsuario
           img={Tupi}
-          titulo="Tupi"
           alt="Tupi"
-          descricao="Você é um verdadeiro apreciador da vida simples e autêntica! O chimarrão é mais do que apenas uma bebida, é uma tradição, uma cultura e uma forma de conectar-se com as pessoas e com a natureza. Você sabe apreciar o sabor forte e a companhia dos amigos ao redor da roda de chimarrão. É um momento para relaxar, conversar e criar memórias que duram uma vida inteira. Então, aqui vai um brinde ao chimarrão e às boas conversas!"
+          titulo="Tupi"
+          descricao="Gosto de Chimarrão"
         />
+
+
+        <CartaoUsuario
+          img={Tupi}
+          alt="Tupi"
+          titulo="Tupi"
+          descricao="Gosto de Chimarrão"
+        />
+
+   
+      </main>
     </>
   )
 }
