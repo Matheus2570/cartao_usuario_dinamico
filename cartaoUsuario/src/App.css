@@ -1,0 +1,24 @@
+<<<<<<< HEAD
+=======
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main2{
+    display: flex;
+   gap: 1vw;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 3vw;
+}
+>>>>>>> a1dfe7722b5fd4139e965aca5d892287ffaa416e
