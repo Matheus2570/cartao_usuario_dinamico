@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 import './App.css'
 import CartaoUsuario from './components/Perfil'
 import Tupi from "./assets/TupiGato.png"
@@ -31,3 +33,4 @@ function App() {
 }
 
 export default App
+>>>>>>> a1dfe7722b5fd4139e965aca5d892287ffaa416e
