@@ -1,17 +1,18 @@
 import { useState } from "react";
-import '../botaoSeguir.css';
+import './botaoSeguir.css';
+
 
 function Seguir() {
   const [Seguindo, setSeguindo] = useState(false);
 
   const Seguir = () => {
-    setSeguindo(true);
+    setSeguindo(!Seguindo);
   };
 
   return (
     <>
-      <button onClick={Seguir} className={Seguindo ? "seguindo" : "seguir"}>
-        {Seguindo ? "Seguindo" : "Seguir"}
+      <button onClick={Seguir} className={Seguindo ? "cancelar" : "seguir"}>
+        {Seguindo ? "Deixar de seguir ❌" : "Seguir 🔔"}
       </button>
     </>
   );
