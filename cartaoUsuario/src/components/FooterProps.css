@@ -1,0 +1,43 @@
+.footer {
+    margin-top: 5%;
+    background-color:  #02218668;
+    padding: 2% 0;
+    color: #000000;
+    text-align: center;
+    font-size: 1em;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+  justify-content: space-between;
+    align-items: center;
+
+    padding: 0 5%;
+}
+
+.footer_contact p {
+    margin: 5px;
+    font-size: 1.1em;
+    flex: 3;
+}
+
+
+.footer_social a {
+    margin: 0 5px;
+    font-size: 2.2em;
+    color: #000000;
+    transition: color 0.3s ease;
+    flex: 5;
+}
+
+.footer_social a:hover {
+    color: #e67e22; 
+}
+.footer_social p {
+    font-size: 1.2em;
+   
+}
+
+

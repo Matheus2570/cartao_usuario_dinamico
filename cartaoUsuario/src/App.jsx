@@ -1,6 +1,7 @@
 import "./App.css";
 import CartaoUsuario from "./components/Perfil";
 import Header from "./components/Header"
+import Footer from "./components/FooterProps"
 import Tupi from "./assets/TupiGato.png";
 import Matheus from "./assets/Matheus.jpg";
 import Maria from "./assets/Maria.jpg";
@@ -78,6 +79,15 @@ function App() {
           />
         </main>
       </main>
+
+      <Footer
+        email="grupo5_melhorgrupo@gmail.com"
+        telefone="(19)1942-1845"
+        instagram="https://www.instagram.com"
+        facebook="https://www.facebook.com"
+        twitter="https://www.twitter.com"
+        autor="Grupo 5"
+      />
     </>
   );
 }
