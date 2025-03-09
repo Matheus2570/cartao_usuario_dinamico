@@ -2,7 +2,7 @@
 
 Este é um projeto em **React** onde criamos um **cartão de usuário dinâmico**, utilizando **props**, **useState** e **componentes reutilizáveis**. 
 
-## 📌 Funcionalidades ✅
+## ✅ Funcionalidades 
 
 - **Exibição de informações do usuário**: Nome, idade, e-mail, etc.
 - **Atualização dinâmica**: Uso de `useState` para modificar os dados em tempo real.
